@@ -1,0 +1,21 @@
+# ============================================================
+# MidiaManager - Requirements
+# Dependências necessárias para rodar o projeto
+# ============================================================
+
+# Interface com o usuário
+streamlit==1.36.0
+
+# Manipulação de imagens
+Pillow==10.4.0
+
+# Comparação de imagens via hash perceptual
+imagehash==4.3.1
+
+# Automação de navegador (futuras integrações)
+playwright==1.45.0
+
+# Banco de dados SQLite (já incluso no Python, mas incluímos driver auxiliar)
+sqlite-utils==3.36
+
+# Logging já incluso no Python, não precisa instalar
